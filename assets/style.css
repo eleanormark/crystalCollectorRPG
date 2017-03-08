@@ -1,0 +1,109 @@
+* {
+	color: black;
+	font-size: 20px;
+}
+
+body {
+	background-image:url('images/background.jpg');
+	background-repeat:no-repeat;
+ }
+
+.title-font {
+	font-size: 38px;
+	padding-top: 3%;
+}
+
+button {
+	background-color: #d4b171;
+	border: 3px solid #89795f;
+    padding: 10px 40px; 
+    width: 180px;
+    border-radius: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+button:active {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    border: 3px solid #89795f;
+
+}
+
+.sprite {
+	opacity: 0.88;
+    filter: alpha(opacity=88);
+    width: 10%;
+	height: 0;
+	padding-bottom: 7%;
+	background-image: url("images/gems.jpg");
+	display:inline-block;
+
+}
+
+.sprite:active {
+	opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+.sprite.red{
+	background-position: 9% 0;
+	background-size: 455%;
+}
+
+.sprite.purple{
+	background-position: 36% 0;
+	background-size: 500%;
+}
+
+.sprite.blue{
+	background-position: 63% 0;
+	background-size: 455%;
+}
+
+.sprite.yellow{
+	background-position: 63% 83%;
+	background-size: 455%;
+
+}
+
+.health-point {
+	font-size: 16px;
+}
+
+legend { 
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    color: black;
+    line-height: 25px;
+    text-align:center;
+    font-size: 16px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+   
+}
+
+fieldset {
+    border: 2px solid white;
+    }
+
+fieldset.border-blue {
+    border: 8px solid #92C7C7;
+    }
+
+fieldset.border-red {
+    border: 8px solid #C79191;
+    }
+
+
+
+
+
+
+
